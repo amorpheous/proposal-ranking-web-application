@@ -1,0 +1,274 @@
+compile
+eclipse with-source=true
+eclipse
+compile
+clean
+relload
+reload
+clean
+reload
+update
+compile
+eclipse
+~run
+reload
+update
+~run
+eclipse with-source=true
+~run
+reload
+update
+eclipse with-source=true
+~run
+compile
+eclipse with-source=true
+compile
+reload
+compile
+reload
+eclipse with-source=true
+~run
+reload
+~run
+ls
+~run
+activator
+~run
+reload
+update
+ls
+compile with-source=true
+compile
+exit
+activator
+reload~
+reload
+update
+compile
+eclipse with-source=true
+~run
+compile
+~run
+reolad
+reload
+update
+eclipse
+~run
+reload
+update
+eclipse
+~run
+~test
+clean
+~test
+~run
+~test
+clean
+reload
+eclipse
+~run
+~test
+~run
+test
+~run
+test
+~test
+~run
+~test
+~run
+~test
+~run
+~test
+~run
+~test
+exit
+run
+compile
+~run
+~test
+exit
+reload
+update
+compile
+~test
+compile
+test
+~test
+~run
+~test
+~run
+ls
+~run
+clean
+reload
+update
+compile
+eclipse with-source=true
+~run
+~test
+run
+~run
+~test
+run
+~run
+~test
+~run
+~test
+~run
+~test
+~run
+h2-browser
+compile
+h2-browser
+~run
+h2-browser
+~run
+~test
+~run
+h2-browser
+~run
+exit
+clean
+compile
+eclipse
+compile
+update
+eclipse
+clean
+compile
+~run
+h2-browser
+~run
+last compile run
+last compile: run
+run last compile: run
+compile
+clean
+reload
+clean
+updat
+update
+~run
+clean
+reload
+compile --with-source
+compile --with-source=true
+compile with-source=true
+compile
+compile with-source=true
+eclipse with-source=true
+~run
+compile
+eclipse
+clean 
+eclipse
+compile
+eclipse
+~run
+h2-browser
+~run
+clean
+reload
+update
+eclipse with-source=true
+~run
+compile
+run
+~run
+compile
+~run
+h2-browser
+~run
+exit
+~run
+clean
+eclipse with-source=true
+compile
+clean
+update
+reload
+update
+clean
+compile
+eclipse with-source=true
+~run
+clean
+reload
+update
+compile with-source=true
+compile 
+eclipse with-source=true
+compile
+exit
+compile
+exit
+sbt scalastyleGenerateConfig
+sbt scalastyle
+~run
+eclipse with-source=true
+~run
+clean
+reload
+update
+compile
+clean
+reload
+update
+compile
+eclipse with-source=true
+exit
+~run
+compile
+~run
+clean
+update
+reload
+compile
+eclipse with-source=true
+~run
+ls
+~run
+h2
+h2-browser
+~run
+h2-browser
+~run
+h2-browser
+~run
+h2-browser
+~run
+exit
+~run
+exit
+~run
+h2-browser
+~run
+~~run
+~run
+~~run
+~run
+run
+compile
+run
+~run
+clean
+compile
+eclipse with-source=true
+~run
+eclipse with-source=true
+compile
+~run
+compile
+~run
+~~run
+~run
+eclipse with-source=true
+~run
+..
+exit
+ls
+eclipse
+exit
+~run
+exit
+~run

@@ -1,0 +1,45 @@
+@(proposal: Optional[Proposal])
+
+@main("The Proposal") {
+
+<style type="text/css"> 
+.proposal-style{
+    max-width: 1000px;
+    padding: 10px 20px;
+    background: #f04f7f8;
+    margin: 10px auto;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.proposal-style legend {
+		display: block;
+    	font-size: 40px;
+    	margin-bottom: 30px;
+}
+
+
+.proposal-style [id=textarea] {
+			background: #e8eeef;
+			padding: 10px;
+}
+
+</style>
+
+<div class=proposal-style>
+<legend> Post Successful</legend>
+	<br>
+	<div id=textarea>
+	<h3>&nbsp; @proposal.get().name</h3><br>
+	<p> &nbsp; &nbsp; @proposal.get().description</p><br>
+	<p> &nbsp; Rank: @proposal.get().rank</p><br>
+	<p> &nbsp; Date: @proposal.get().date</p><br>
+	<p> &nbsp; UUID: @proposal.get().uuid.get()</p><br>
+	<input type="button" align="right" value="Back to List" class="backToList"></input>
+	<hr>
+	</div>
+</div>
+}
+

@@ -1,0 +1,225 @@
+
+<style type="text/css">
+.form-style-5{
+    max-width: 1000px;
+    padding: 10px 20px;
+    background: #f04f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {	
+	display: block;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.form-style-5 label {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 80%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.06) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.06) inset;
+    margin-bottom: 30px;
+   
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+
+
+.form-style-5 input[type="submit"]
+{
+    position: static;
+    padding: 1px 3px 1px 3px;
+    color: #FFFF;
+    margin: 0 auto;
+    background: #109199;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 20%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 1px;
+    border-radius: 15px 15px;
+    margin-bottom: 10px;
+} 
+
+
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="rank"]:hover
+{
+    background: #107199;
+}
+</style>
+
+
+
+<style type="text/css"> 
+.proposal-style{
+    max-width: 1000px;
+    padding: 10px 20px;
+    background: #f04f7f8;
+    margin: 10px auto;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+
+.proposal-style legend {
+		display: block;
+    	font-size: 40px;
+    	margin-bottom: 30px;
+}
+
+
+.proposal-style [id=textarea] {
+			background: #e8eeef;
+			padding: 10px;
+}
+
+</style>
+
+
+
+
+<style type="text/css">
+.list-style {
+    max-width: 1000px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+  }
+
+.list-style table {
+	border-collapse: collapse;
+	witdh: 100%;
+}
+
+
+
+.list-style legend {
+		display: block;
+    	font-size: 40px;
+   		 margin-bottom: 30px;
+}
+
+
+.list-style p:nth-child(even) {background-color: #e8eeef;
+				padding: 10px;	
+				}
+
+#button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 0px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.post-up span {
+		cursor: pointer;
+		display:inline-block;
+		position: relative;
+		transition:0.5s;		
+}
+
+.post-up span:after {
+				content: '\2191';
+				position: absolut;
+				opacity: 0;
+				top: 0;
+				right: 25px;
+				transition: 0.5s;
+}
+
+.post-up:hover span {
+	padding-right: 25px;
+}
+
+.post-up:hover span:after {
+	opacity: 10;
+	right: 0;
+}
+
+.post-down span {
+		cursor: pointer;
+		display:inline-block;
+		position: relative;
+		transition:0.5s;		
+}
+
+.post-down span:after {
+				content: '\2193';
+				position: absolut;
+				opacity: 0;
+				top: 0;
+				right: 25px;
+				transition: 0.5s;
+}
+
+.post-down:hover span {
+	padding-right: 25px;
+}
+
+.post-down:hover span:after {
+	opacity: 10;
+	right: 0;
+}
+
+</style>

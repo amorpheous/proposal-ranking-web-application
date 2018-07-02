@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/application.conf,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/evolutions,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/logback.xml,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/routes,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/evolutions/default,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fredrik/github/idea-ranking-web-application/conf/evolutions/default/1.sql,/Users/fredrik/github/idea-ranking-web-application/target/scala-2.11/classes/evolutions/default/1.sql)[0m

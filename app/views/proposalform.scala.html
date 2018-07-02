@@ -1,0 +1,34 @@
+@(proposal: Optional[Proposal])
+
+@main("Proposal form") {
+	
+
+
+
+
+<div class="form-style-5">
+	<form data-url="/proposal/" data-nexturl="/proposal/">
+		<fieldset>
+			<legend id=heading> Proposal Form </legend>	
+			<input data-field="uuid" type="hidden" </input>
+			<input data-field="name" type="text" placeholder="Proposal Name" @if(proposal.isPresent()) { value="@proposal.get().name" }></input>
+			<textarea data-field="description" type="text" placeholder="Your Proposal" @if(proposal.isPresent()){"@proposal.get().description"}></textarea>
+			<input data-field="date" type="hidden" @if(proposal.isPresent()){ value="@proposal.get().date" }></input>
+			<label> Subject: </label>
+			<select id=subject> 
+			<optgroup label="Regional">
+				<option value="politics">Politics</option>
+				<option value="city environment">City Environment</option>
+			</optgroup>	
+			<optgroup label="World">
+				<option value="climate">Climate</option>
+				<option value="poverty">Poverty</option>
+				<option value="hunger">Hunger</option>
+			</optgroup>
+			</select>
+		</fieldset>
+		<input type="submit" class="post-btn" value="Submit"</input>
+	</form>
+</div>
+}
+
